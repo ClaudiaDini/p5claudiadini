@@ -3,7 +3,7 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+  background(0);
   const s = 100;
 
   rect(0, 0, s, s);
@@ -12,6 +12,9 @@ function draw() {
   rect(width - s, height - s, s, s);
 
   textSize(50);
+  fill(255);
+  stroke(0);
+  strokeWeight(4);
   textAlign("center");
   text("Claudia Dini", width / 2, height / 2);
 }
