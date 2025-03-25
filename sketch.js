@@ -1,7 +1,5 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  textSize(100);
-  textAlign(CENTER, CENTER);
 }
 
 function draw() {
@@ -13,8 +11,10 @@ function draw() {
   rect(width - s, 0, s, s);
   rect(width - s, height - s, s, s);
 
+  textSize(100);
+  textAlign(CENTER, CENTER);
   rotateY(frameCount / 30);
-  text("Claudia Dini", 0, 0);
+  text("Claudia Dini", width / 2, height / 2);
 }
 
 function windowResized() {
