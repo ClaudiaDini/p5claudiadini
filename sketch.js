@@ -11,9 +11,8 @@ function draw() {
   rect(width - s, 0, s, s);
   rect(width - s, height - s, s, s);
 
-  textSize(100);
-  textAlign(CENTER, CENTER);
-  rotateY(frameCount / 30);
+  textSize(50);
+  textAlign("center");
   text("Claudia Dini", width / 2, height / 2);
 }
 
